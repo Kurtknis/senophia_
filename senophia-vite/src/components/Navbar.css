@@ -43,6 +43,13 @@
   transform: scale(1.02);
 }
 
+.navbar-logo-img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
 
 .logo-text {
   display: flex;
@@ -280,6 +287,11 @@
 @media (max-width: 768px) {
   .navbar-container {
     padding: 0 16px;
+  }
+
+  .navbar-logo-img {
+    width: 36px;
+    height: 36px;
   }
 
   .logo-main {

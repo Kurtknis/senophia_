@@ -66,7 +66,7 @@ const Contact = () => {
   const contactInfo = [
     { icon: <Mail size={20} />, label: 'Email', value: bookingEmail, href: `mailto:${bookingEmail}` },
     { icon: <Phone size={20} />, label: 'Phone', value: 'CP: +62-878-8251-7950 (Evan)', href: 'tel:+62-878-8251-7950' },
-    { icon: <MapPin size={20} />, label: 'Location', value: 'Jakarta, Indonesia', href: '#' },
+    { icon: <MapPin size={20} />, label: 'Location', value: 'Tanggerang Selatan', href: '#' },
   ];
 
   const socialLinks = [

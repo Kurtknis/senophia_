@@ -1,5 +1,5 @@
 import React from 'react';
-import { Music, ArrowUp } from 'lucide-react';
+import { ArrowUp } from 'lucide-react';
 import './Footer.css';
 
 const Footer = () => {
@@ -47,7 +47,7 @@ const Footer = () => {
             <div className="footer-brand">
               <div className="footer-logo">
                 <div className="footer-logo-icon">
-                  <Music size={24} />
+                  <img src="/logosenophia.png" alt="Senophia logo" />
                 </div>
                 <div className="footer-logo-text">
                   <span className="footer-logo-main">SENOPHIA</span>
@@ -56,7 +56,7 @@ const Footer = () => {
               </div>
               <p className="footer-brand-desc">
                 Bringing vintage soul and modern energy to every stage. 
-                Based in Jakarta, performing worldwide.
+                Based in Tanggerang Selatan, performing worldwide.
               </p>
               <div className="footer-brand-decoration">
                 <span className="deco-letter" style={{ color: 'var(--vintage-red)' }}>S</span>

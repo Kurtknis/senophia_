@@ -52,7 +52,7 @@ const Navbar = () => {
         <div className="navbar-container">
           {/* Logo */}
           <div className="navbar-logo" onClick={() => scrollToSection('home')}>
-
+            <img className="navbar-logo-img" src="/logosenophia.png" alt="Senophia logo" />
             <div className="logo-text">
               <span className="logo-main">SENOPHIA</span>
               <span className="logo-sub">Official Website</span>

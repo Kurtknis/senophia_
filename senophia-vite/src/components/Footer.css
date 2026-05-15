@@ -33,12 +33,21 @@
 .footer-logo-icon {
   width: 44px;
   height: 44px;
-  background: var(--vintage-red);
+  background: var(--off-white);
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--off-white);
+  overflow: hidden;
+  padding: 6px;
+}
+
+.footer-logo-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .footer-logo-text {
