@@ -118,7 +118,7 @@ const Footer = () => {
           <div className="footer-bottom-content">
             <p className="footer-copyright">© 2024 SENOPHIA</p>
             <div className="footer-bottom-right">
-              <p className="footer-credit">Website ini buatan anak Fullstack UPJ, Raihan Iyadah Iya</p>
+              <p className="footer-credit">Website ini buatan anak Fullstack UPJ, Raihan sistem informasi Iyadah Iya</p>
               <button className="footer-scroll-top" onClick={scrollToTop} aria-label="Scroll to top">
                 <ArrowUp size={20} />
               </button>
