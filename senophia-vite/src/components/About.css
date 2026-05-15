@@ -1,0 +1,265 @@
+/* ============================================
+   ABOUT SECTION STYLES
+   ============================================ */
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+/* Visual Side */
+.about-visual {
+  position: relative;
+  padding-top: 40px;
+}
+
+.about-image-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 16px;
+  position: relative;
+  z-index: 2;
+}
+
+.about-img {
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.about-img-main {
+  grid-row: span 2;
+  aspect-ratio: 3/4;
+}
+
+.about-img-secondary,
+.about-img-tertiary {
+  aspect-ratio: 1;
+}
+
+.about-img-small {
+  grid-column: span 2;
+  aspect-ratio: 2/1;
+}
+
+.about-img-bottom {
+  grid-column: span 2;
+  aspect-ratio: 2/0.82;
+}
+
+.about-img-bottom img {
+  object-position: center 42%;
+}
+
+.img-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-placeholder::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%);
+}
+
+.img-letter {
+  font-family: var(--font-display);
+  font-size: clamp(60px, 10vw, 120px);
+  color: var(--off-white);
+  opacity: 0.9;
+  position: relative;
+  z-index: 1;
+}
+
+.about-visual-decoration {
+  position: absolute;
+  top: 0;
+  right: -20px;
+  z-index: 1;
+}
+
+.decoration-circle {
+  width: 150px;
+  height: 150px;
+  border: 2px solid var(--vintage-red);
+  border-radius: 50%;
+  opacity: 0.3;
+  position: absolute;
+  top: -30px;
+  right: -30px;
+}
+
+.decoration-line {
+  width: 100px;
+  height: 2px;
+  background: var(--vintage-yellow);
+  position: absolute;
+  top: 50%;
+  right: -50px;
+  transform: rotate(-45deg);
+}
+
+/* Text Side */
+.about-text {
+  padding-top: 20px;
+}
+
+.about-header {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.about-header .section-title {
+  font-size: clamp(40px, 6vw, 72px);
+}
+
+.about-description {
+  margin-bottom: 48px;
+}
+
+.about-description p {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--warm-gray);
+  margin-bottom: 20px;
+}
+
+.about-description strong {
+  color: var(--vintage-red);
+  font-weight: 600;
+}
+
+/* Feature Cards */
+.about-features {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.feature-card {
+  display: flex;
+  gap: 18px;
+  padding: 18px;
+  background: var(--off-white);
+  border-radius: 12px;
+  border: 1px solid var(--light-gray);
+  transition: all 0.4s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-soft);
+  border-color: var(--vintage-red);
+}
+
+.feature-cover {
+  flex-shrink: 0;
+  width: 96px;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: var(--light-gray);
+  border-radius: 8px;
+}
+
+.feature-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.feature-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.feature-title {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--dark-charcoal);
+  margin-bottom: 8px;
+}
+
+.feature-description {
+  font-family: var(--font-body);
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--warm-gray);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .about-visual {
+    order: 2;
+  }
+
+  .about-text {
+    order: 1;
+  }
+
+  .about-header {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-features {
+    grid-template-columns: 1fr;
+  }
+
+  .about-image-grid {
+    gap: 10px;
+  }
+
+  .feature-card {
+    padding: 16px;
+  }
+
+  .feature-cover {
+    width: 82px;
+  }
+
+  .about-img-bottom {
+    aspect-ratio: 2/1;
+  }
+}
+
+@media (max-width: 480px) {
+  .feature-card {
+    flex-direction: column;
+  }
+
+  .feature-cover {
+    width: 100%;
+  }
+
+  .feature-title {
+    font-size: 15px;
+  }
+}
