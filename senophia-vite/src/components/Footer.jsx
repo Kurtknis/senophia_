@@ -21,10 +21,10 @@ const Footer = () => {
       { label: 'Merchandise', href: '#' },
     ],
     social: [
-      { label: 'Instagram', href: '#' },
-      { label: 'YouTube', href: '#' },
-      { label: 'Spotify', href: '#' },
-      { label: 'TikTok', href: '#' },
+      { label: 'Instagram', href: 'https://www.instagram.com/senophia_/' },
+      { label: 'YouTube', href: 'https://www.youtube.com/@Senophia' },
+      { label: 'Spotify', href: 'https://open.spotify.com/artist/5NAbaOO4ubarrkG3yaQxtI?si=WdFnFquqTDK1slPgXJqLYw' },
+      { label: 'TikTok', href: 'https://www.tiktok.com/@senophiaband?_r=1&_t=ZS-96Nm5IOwYNt' },
     ],
   };
 
