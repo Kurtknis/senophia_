@@ -9,7 +9,6 @@ const Gallery = () => {
   const images = [
     { id: 1, src: '/shefyvsuyf.JPG', label: 'Live at Jakarta' },
     { id: 2, src: '/gallery/IMG_8667.JPG', label: 'Studio Session' },
-    { id: 3, src: '/gallery/IMG_8721.JPG', label: 'Backstage' },
     { id: 4, src: '/gallery/IMG_8819.JPG', label: 'Festival Stage' },
     { id: 5, src: '/gallery/IMG_8826.JPG', label: 'Rehearsal' },
     { id: 6, src: '/gallery/fqs 2026-03-27 0042152F2F10009A88.JPG', label: 'Sound Check' },

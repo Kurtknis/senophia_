@@ -16,15 +16,15 @@ const Members = () => {
 
   const members = [
     {
-      name: 'Aiman Rasyapradipta',
-      role: 'Rhythm Guitarist & Lead Songwriter',
-      nickname: 'Rasya',
-      bio: "Rasya is the rhythmic pulse and lyrical architect behind Senophia. As the band's rhythm guitarist and songwriter, Rasya anchors their sound in heavy, emotionally charged storytelling. His lyrics read like a collection of fading memories, mapping out narratives of fear, euphoria, and heartbreak that drive the conceptual core of their music.",
-      image: '/bandmemberIMG/Aiman Rasyapradipta%20.JPG',
-      icon: <Guitar size={24} />,
+      name: 'Zora',
+      role: 'Vocalist & Frontman',
+      nickname: 'Zora',
+      bio: "Zora is the lead vocalist and frontman of Senophia, known for his emotionally driven performances and smooth R&B-pop influenced vocal style. Inspired by Justin Bieber, Daniel Caesar, Duta, Pamungkas, and The Overtunes, he blends soulful melodies and modern pop sensibilities with Senophia's atmospheric alternative-pop sound, creating a distinct emotional identity for the band.",
+      image: '/bandmemberIMG/zora.JPG',
+      icon: <Mic size={24} />,
       color: 'var(--vintage-red)',
-      bgColor: '#C41E3A',
-      social: { instagram: 'https://www.instagram.com/aimanrasyapradipta?igsh=c2p6ZGNjcG5tYzI=' }
+      bgColor: '#A83232',
+      social: { instagram: 'https://www.instagram.com/arka.zg?igsh=MTF6dDd1N2dlenpxdw%3D%3D&utm_source=qr' }
     },
     {
       name: 'Irgi Adyatma Yasa',
@@ -38,26 +38,15 @@ const Members = () => {
       social: { instagram: 'https://www.instagram.com/irgiadyts?igsh=d2lteTIwa2FhNzB5&utm_source=qr' }
     },
     {
-      name: 'Rifat Athallah Rizky',
-      role: 'Drummer & Drum Mixing Engineer',
-      nickname: 'Rifat',
-      bio: "Rifat is the drummer and drum mixing engineer behind Senophia's recordings, bringing groove, texture, and dynamic energy into each track. Influenced by Aaron Sterling, George Daniel, and Enrico Oktaviano, his playing blends modern pop sensibilities with indie-driven expression. From tracking live drums to shaping their final sound in the mix, Rifat creates rhythmic foundations that feel tight and emotionally alive.",
-      image: '/bandmemberIMG/Rifat Athallah Rizky%20.JPG',
-      icon: <Drum size={24} />,
-      color: 'var(--vintage-yellow)',
-      bgColor: '#D4A843',
-      social: { instagram: 'https://www.instagram.com/rifat_athallah?igsh=NnhpendveHRkdHJs&utm_source=qr' }
-    },
-    {
-      name: 'Zora',
-      role: 'Vocalist & Frontman',
-      nickname: 'Zora',
-      bio: "Zora is the lead vocalist and frontman of Senophia, known for his emotionally driven performances and smooth R&B-pop influenced vocal style. Inspired by Justin Bieber, Daniel Caesar, Duta, Pamungkas, and The Overtunes, he blends soulful melodies and modern pop sensibilities with Senophia's atmospheric alternative-pop sound, creating a distinct emotional identity for the band.",
-      image: '/bandmemberIMG/zora.JPG',
-      icon: <Mic size={24} />,
+      name: 'Aiman Rasyapradipta',
+      role: 'Rhythm Guitarist & Lead Songwriter',
+      nickname: 'Rasya',
+      bio: "Rasya is the rhythmic pulse and lyrical architect behind Senophia. As the band's rhythm guitarist and songwriter, Rasya anchors their sound in heavy, emotionally charged storytelling. His lyrics read like a collection of fading memories, mapping out narratives of fear, euphoria, and heartbreak that drive the conceptual core of their music.",
+      image: '/bandmemberIMG/Aiman Rasyapradipta%20.JPG',
+      icon: <Guitar size={24} />,
       color: 'var(--vintage-red)',
-      bgColor: '#A83232',
-      social: { instagram: 'https://www.instagram.com/arka.zg?igsh=MTF6dDd1N2dlenpxdw%3D%3D&utm_source=qr' }
+      bgColor: '#C41E3A',
+      social: { instagram: 'https://www.instagram.com/aimanrasyapradipta?igsh=c2p6ZGNjcG5tYzI=' }
     },
     {
       name: 'Resha',
@@ -69,6 +58,17 @@ const Members = () => {
       color: 'var(--vintage-blue)',
       bgColor: '#4A5568',
       social: { instagram: 'https://www.instagram.com/rewzky?igsh=MXh2YjBibnoybjFpYw%3D%3D&utm_source=qr' }
+    },
+    {
+      name: 'Rifat Athallah Rizky',
+      role: 'Drummer & Drum Mixing Engineer',
+      nickname: 'Rifat',
+      bio: "Rifat is the drummer and drum mixing engineer behind Senophia's recordings, bringing groove, texture, and dynamic energy into each track. Influenced by Aaron Sterling, George Daniel, and Enrico Oktaviano, his playing blends modern pop sensibilities with indie-driven expression. From tracking live drums to shaping their final sound in the mix, Rifat creates rhythmic foundations that feel tight and emotionally alive.",
+      image: '/bandmemberIMG/Rifat Athallah Rizky%20.JPG',
+      icon: <Drum size={24} />,
+      color: 'var(--vintage-yellow)',
+      bgColor: '#D4A843',
+      social: { instagram: 'https://www.instagram.com/rifat_athallah?igsh=NnhpendveHRkdHJs&utm_source=qr' }
     }
   ];
 
