@@ -31,7 +31,7 @@ const Members = () => {
       role: 'Lead Guitarist & Producer',
       nickname: 'Irgi',
       bio: "Irgi is the producer and lead guitarist of Senophia, shaping the band's sonic identity through atmospheric textures and expressive guitar work. Influenced by Mk.gee, Jonny Greenwood, John Mayer, and David Gilmour, his sound blends raw emotion with detailed production. As the main force behind Senophia's music, he builds each track from the ground up, crafting a distinct balance between melody and mood.",
-      image: '/bandmemberIMG/Irgi Adyatma Yasa%20.JPG',
+      image: '/bandmemberIMG/irgi%20adyatma%20yasa.png',
       icon: <Guitar size={24} />,
       color: 'var(--vintage-blue)',
       bgColor: '#6B7B8C',
@@ -47,6 +47,17 @@ const Members = () => {
       color: 'var(--vintage-red)',
       bgColor: '#C41E3A',
       social: { instagram: 'https://www.instagram.com/aimanrasyapradipta?igsh=c2p6ZGNjcG5tYzI=' }
+    },
+    {
+      name: 'Rama',
+      role: 'Keyboardist & Synthesizers',
+      nickname: 'Rama',
+      bio: "Rama handles the keys and synthesizers for Senophia, filling in the blanks and giving the band's music its texture. Instead of just sticking to basic chords, he focuses on layering sounds using electronic rhythms, ambient pads, and clean leads to flesh out the tracks and tie everything together.",
+      image: '/bandmemberIMG/rama.JPG',
+      icon: <Music size={24} />,
+      color: 'var(--vintage-yellow)',
+      bgColor: '#D4A843',
+      social: { instagram: 'https://www.instagram.com/ramadrpa?igsh=MWR1YWxwN25jNDgwYQ==' }
     },
     {
       name: 'Resha',
@@ -96,7 +107,7 @@ const Members = () => {
         <div className="section-header reveal">
           <span className="section-label">The Crew</span>
           <h2 className="section-title">Meet The Band</h2>
-          <p className="section-subtitle">Five souls, one sound</p>
+          <p className="section-subtitle">Six souls, one sound</p>
         </div>
 
         <div className="members-container">
